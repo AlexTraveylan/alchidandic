@@ -5,7 +5,7 @@ Main module for the application
 import logging
 from atexit import register
 
-from app.core.constants import LOGGER_NAME
+from alchidantic.core.constants import LOGGER_NAME
 
 logger = logging.getLogger(LOGGER_NAME)
 

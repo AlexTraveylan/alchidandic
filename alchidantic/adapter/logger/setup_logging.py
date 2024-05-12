@@ -10,7 +10,7 @@ import logging.config
 import logging.handlers
 from pathlib import Path
 
-from app.core.constants import LOGGER_NAME, LOGGING_CONFIG_PATH
+from alchidantic.core.constants import LOGGER_NAME, LOGGING_CONFIG_PATH
 
 logger = logging.getLogger(LOGGER_NAME)
 

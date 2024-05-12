@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10
+FROM python:3.12
 
 # Set the working directory in the container to /app
 WORKDIR /app
@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Run app.py when the container launches
-CMD ["python", "app/main.py"]
+CMD ["python", "alchidantic/main.py"]

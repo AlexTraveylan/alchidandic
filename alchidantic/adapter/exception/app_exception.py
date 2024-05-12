@@ -6,7 +6,7 @@ Module for the AppException class
 """
 
 
-class AppException(Exception):
+class AlchidanticException(Exception):
     """
     Exception class for the application
 
