@@ -5,7 +5,7 @@ Test the AppException class
 :date: 2024
 """
 
-from app.adapter.exception.app_exception import AppException
+from alchidantic.adapter.exception.app_exception import AppException
 
 
 def test_app_exception():

@@ -5,7 +5,7 @@ Tests for the file adapter/logger/activation_condition.py
 :date: 2024
 """
 
-from app.adapter.logger.activation_condition import is_on_site_packages
+from alchidantic.adapter.logger.activation_condition import is_on_site_packages
 
 
 def test_is_on_site_packages_when_file_in_site_packages():
